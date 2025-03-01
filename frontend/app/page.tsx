@@ -244,7 +244,7 @@ export default function Home() {
 						)}
 					/>
 					<Button type="submit" className="mr-3 hover:cursor-pointer">Simpan</Button>
-					<Button onClick={() => window.BloopAPI.getAllProducts()} className="mr-3 hover:cursor-pointer">Buka Excel</Button>
+					<Button onClick={() => window.BloopAPI.getAllProducts()} className="mr-3 hover:cursor-pointer">Simpan Ke Excel</Button>
 				</form>
 			</Form>
 		</div>
