@@ -133,7 +133,7 @@ const spawnAppWindow = async () => {
 	appWindow.setMenu(null)
 	appWindow.show()
 
-	if (electronIsDev) appWindow.webContents.openDevTools({ mode: 'right' })
+	// if (electronIsDev) appWindow.webContents.openDevTools({ mode: 'right' })
 
 	appWindow.on('closed', () => {
 		appWindow = null
