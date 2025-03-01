@@ -17,7 +17,7 @@ const store = new ElectronStore()
 import sqlite3 from 'sqlite3';
 
 // Define the database path
-const dbPath: string = resolve(__dirname, "sqlite.db").replace('app.asar', 'app.asar.unpacked').replace("/main", "");
+const dbPath: string = resolve(__dirname, "sqlite.db").replace('app.asar', 'app.asar.unpacked').replace("/backend/build", "");
 
 // Create a new database instance
 const db: sqlite3.Database = new sqlite3.Database(dbPath, (error: Error | null) => {

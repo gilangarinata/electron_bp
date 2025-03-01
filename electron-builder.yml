@@ -1,4 +1,8 @@
 artifactName: ${productName}-${os}-${arch}.${ext}
+
+asarUnpack:
+  - dist/assets/sqlite.db
+
 win:
   target: nsis
 linux:
