@@ -11,6 +11,7 @@
 		"suppressImplicitAnyIndexErrors": true,
 		"esModuleInterop": true,
 		"module": "esnext",
+		"exclude": ["node_modules/**/*"],
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
