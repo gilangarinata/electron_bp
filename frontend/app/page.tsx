@@ -153,6 +153,7 @@ export default function Home() {
 			brand: values.merk,
 		};
 
+		form.reset();
 		window.BloopAPI.addProduct(product);
 	}
 
@@ -171,7 +172,7 @@ export default function Home() {
 								<FormLabel>Nama Barang</FormLabel>
 								<FormControl>
 									<Input
-										placeholder="shadcn"
+										placeholder=""
 										{...field}
 										list="suggestions"
 									/>
@@ -223,7 +224,7 @@ export default function Home() {
 							<FormItem>
 								<FormLabel>Harga</FormLabel>
 								<FormControl>
-									<Input type="number" placeholder="10000" {...field} />
+									<Input type="number" placeholder="" {...field} />
 								</FormControl>
 								<FormMessage/>
 							</FormItem>
@@ -236,7 +237,7 @@ export default function Home() {
 							<FormItem>
 								<FormLabel>Merk</FormLabel>
 								<FormControl>
-									<Input placeholder="Merk Barang" {...field} />
+									<Input placeholder="" {...field} />
 								</FormControl>
 								<FormMessage/>
 							</FormItem>
