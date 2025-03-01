@@ -18,6 +18,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow} from "../../app/components/ui/table"; // Importing the xlsx library
 import * as XLSX from 'xlsx';
+import Logo from '@/assets/pp_logo.png'
 
 const formSchema = z.object({
 	namaBarang: z.string().min(2, {
@@ -159,7 +160,7 @@ export default function Home() {
 		<div className="mx-10 my-10">
 			<Form {...form}>
 				<div className="flex justify-center items-center w-full">
-					<Image src="/pp_logo.png" alt="Logo" width={150} height={150}/>
+					<Image src={Logo} alt="Logo" width={150} height={150}/>
 				</div>
 				<form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
 					<FormField
