@@ -25,6 +25,7 @@
 		"build": "yarn pre-build && electron-builder",
 		"postinstall": "electron-builder install-app-deps",
 		"storybook": "storybook dev -p 6006",
+		"lesgo": "yarn frontend:dev && yarn backend:build && electron .",
 		"build-storybook": "storybook build"
 	},
 	"packageManager": "yarn@4.2.2",
