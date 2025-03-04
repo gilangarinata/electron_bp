@@ -12,7 +12,7 @@
 	"author": "DarkGuy10 <HarperBurn@protonmail.ch>",
 	"license": "MIT",
 	"scripts": {
-		"frontend:dev": "next dev frontend",
+		"frontend:dev": "next dev frontend -p 3010",
 		"frontend:build": "next build frontend",
 		"frontend:lint": "next lint frontend",
 		"backend:build": "tsc -p backend && tsc-alias -p ./backend/tsconfig.json",
