@@ -24,7 +24,7 @@
 		"build": "yarn pre-build && electron-builder",
 		"postinstall": "electron-builder install-app-deps",
 		"storybook": "storybook dev -p 6006",
-		"start": "concurrently -k \"yarn frontend:dev\" \"(sleep 3 && yarn backend:build && electron .)\"",
+		"start": "concurrently -k \"yarn frontend:dev\" \"wait-on tcp:127.0.0.1:3010 && yarn backend:build && electron .\"",
 		"build-storybook": "storybook build"
 	},
 	"packageManager": "yarn@4.2.2",
