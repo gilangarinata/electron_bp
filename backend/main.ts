@@ -126,7 +126,7 @@ const spawnAppWindow = async () => {
 
 	appWindow.loadURL(
 		electronIsDev
-			? 'http://localhost:3000'
+			? 'http://localhost:3010'
 			: `file://${path.join(__dirname, '../../frontend/build/index.html')}`
 	)
 	appWindow.maximize()
