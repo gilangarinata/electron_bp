@@ -84,7 +84,7 @@
 		"zod": "^3.24.2"
 	},
 	"devDependencies": {
-		"@chromatic-com/storybook": "1",
+		"@chromatic-com/storybook": "3",
 		"@storybook/addon-essentials": "^8.1.1",
 		"@storybook/addon-interactions": "^8.1.1",
 		"@storybook/addon-links": "^8.1.1",
