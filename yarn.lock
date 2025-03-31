@@ -3947,11 +3947,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core@npm:8.6.2":
-  version: 8.6.2
-  resolution: "@storybook/core@npm:8.6.2"
+"@storybook/core@npm:8.6.11":
+  version: 8.6.11
+  resolution: "@storybook/core@npm:8.6.11"
   dependencies:
-    "@storybook/theming": "npm:8.6.2"
+    "@storybook/theming": "npm:8.6.11"
     better-opn: "npm:^3.0.2"
     browser-assert: "npm:^1.2.1"
     esbuild: "npm:^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0"
@@ -3967,7 +3967,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 10c0/be3f824e7491dcaf58b1f12588d1ae39d5a893c240154ad1f33bb89fbead70b286ae22e3ea4e654402ebebe1917a4d22f2db03bab6af21273db649cd60ceb4e2
+  checksum: 10c0/61db73dc1a74c7e1a78265380fb159fb68bb6582e95629160357f0743c3945692fc907f60ff07cbdf05d3769f59aa1008dad9e05edefce8a032aa5b35f49b366
   languageName: node
   linkType: hard
 
@@ -4239,6 +4239,15 @@ __metadata:
     "@vitest/spy": "npm:^1.3.1"
     util: "npm:^0.12.4"
   checksum: 10c0/7f0a20b15ccd5e74c1e5ee2cc7de9f14d79fbdab6580348bb713bfaa848cd2e76d5832ed99712c74f777ffc3f9a0502cc79915b874d3e966b62544a2d886c5dd
+  languageName: node
+  linkType: hard
+
+"@storybook/theming@npm:8.6.11":
+  version: 8.6.11
+  resolution: "@storybook/theming@npm:8.6.11"
+  peerDependencies:
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 10c0/625172f789baf265e7260e4e3113b1be5d4104d70bd9599dbe2e5061889a9d0382e3154b1ff2a3ad550c78e8b80fc6b271f394ee2d632ec7cd22cdf82e48ee10
   languageName: node
   linkType: hard
 
@@ -11934,7 +11943,7 @@ __metadata:
     recharts: "npm:^2.15.1"
     sonner: "npm:^2.0.1"
     sqlite3: "npm:^5.1.7"
-    storybook: "npm:^8.1.1"
+    storybook: "npm:^8.6.11"
     tailwind-merge: "npm:^3.0.2"
     tailwindcss: "npm:^3.4.17"
     tailwindcss-animate: "npm:^1.0.7"
@@ -14377,11 +14386,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:^8.1.1":
-  version: 8.6.2
-  resolution: "storybook@npm:8.6.2"
+"storybook@npm:^8.6.11":
+  version: 8.6.11
+  resolution: "storybook@npm:8.6.11"
   dependencies:
-    "@storybook/core": "npm:8.6.2"
+    "@storybook/core": "npm:8.6.11"
   peerDependencies:
     prettier: ^2 || ^3
   peerDependenciesMeta:
@@ -14391,7 +14400,7 @@ __metadata:
     getstorybook: ./bin/index.cjs
     sb: ./bin/index.cjs
     storybook: ./bin/index.cjs
-  checksum: 10c0/222c9da7967aae6a31f899e201300669be4621b084873e0fd9912ddbed32c4b135fd0e4245fbeacc901e281f6711289e8d05a0ea0170a458f2405e0e491dbc5f
+  checksum: 10c0/18c2185bb08d76b0efd314e36bdd576c9bac654ce123810a963cfe8dd71c6a26c7d4c982b2efe0482de77e1137bd53760a71fa5894e28b659a412e05dabee4c8
   languageName: node
   linkType: hard
 
